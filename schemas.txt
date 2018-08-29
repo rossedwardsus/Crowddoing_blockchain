@@ -1,0 +1,64 @@
+db tables
+<br/>
+user
+<br/>
+<br/>
+crypto project:
+<br/>
+id
+<br/>
+category
+<br/>
+name
+<br/>
+symbol
+<br/>
+address
+<br/>
+active
+<br/>
+<br/>
+ethereum transactions
+<br/>
+from address
+<br/>
+to address
+<br/>
+date
+<br/>
+amount
+<br/>
+<br/>
+social media acounts
+<br/>
+twitter
+<br/>
+github
+<br/>
+linkedin
+<br/>
+reddit
+<br/>
+quora
+<br/>
+fb
+<br/>
+<br/>
+twitter tweets
+<br/>
+crypto project id
+<br/>
+tweet text
+<br/>
+date
+<br/>
+<br/>
+bitcoin transactions
+<br/>
+from address
+<br/>
+to address
+<br/>
+date
+<br/>
+amount
