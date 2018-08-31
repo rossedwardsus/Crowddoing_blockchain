@@ -9,10 +9,6 @@
 #bitseed
 #seeds
 
-#schema
-#projectid open close date
-#currency
-
 import requests
 
 COIN_LIST_PATH = "coins.csv"  # Path for file containing the list of coins
