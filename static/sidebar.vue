@@ -1,13 +1,16 @@
 <template>
       <div>
-      	<h3>sidebar</h3>
+      	<li v-for="item in projects">
+      		<h3>sidebar1</h3>
+      	</li>
       </div>
 </template>
 
 <script>
 
 	module.exports = {
-	  name: "sidebar"
+	  name: 'sidebar',
+	  data(){ return {projects: ["one", "two"]}}
 	}
 
 </script>

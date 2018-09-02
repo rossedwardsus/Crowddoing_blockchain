@@ -1,6 +1,6 @@
 <template>
       <div>
-      <h3>({{projectId}})twitter/google trends/google news/cryptocompare</h3>
+      <h3>{{ $route.params.projectId }}({{projectId}})twitter/google trends/google news/cryptocompare</h3>
       <div><sidebar></sidebar></div>
       <div v-if="userData">
         <p>This route makes use of some option data that was passed in:</p>
@@ -27,14 +27,17 @@
 
 <script>
 
-	const sidebar = httpVueLoader('./sidebar.vue')
+	//const sidebar = httpVueLoader('./sidebar.vue')
+
+	//alert(sidebar);
 
 	module.exports = {
 	  name: "homepage",
 	  props: ['projectId', 'userData'],
 	  methods: {},
 	  components : {
-	    sidebar: sidebar
+	    'sidebar': httpVueLoader('/static/sidebar.vue')
+	    //sidebar: {template: '<li>This is a list item</li>'}
 	  }
 	}
 
