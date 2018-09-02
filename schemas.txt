@@ -24,7 +24,7 @@ from address
 <br/>
 to address
 <br/>
-date
+date - need block date
 <br/>
 amount
 <br/>
@@ -33,13 +33,16 @@ social media acounts
 <br/>
 twitter
 <br/>
+follower count - datetime
+<br/>
+tweets
+<br/>
+<br/>
 github
 <br/>
 linkedin
 <br/>
 reddit
-<br/>
-quora
 <br/>
 fb
 <br/>
@@ -53,12 +56,6 @@ tweet text
 date
 <br/>
 <br/>
-bitcoin transactions
+google trends
 <br/>
-from address
-<br/>
-to address
-<br/>
-date
-<br/>
-amount
+google news

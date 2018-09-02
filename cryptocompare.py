@@ -10,7 +10,7 @@
 #seeds
 
 #schema
-#projectid open close date
+#projectid price open price close volume date
 #currency
 
 import requests

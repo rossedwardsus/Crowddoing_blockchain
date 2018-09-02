@@ -1,0 +1,21 @@
+no key needed:
+google trends
+medium
+cryptocompare
+https://medium.com/feed/@your_profile - rss
+/@${username}?format=json
+
+keys needed
+twitter
+reddit
+linkedin
+google news
+facebook
+youtube
+pinterest
+
+
+#manual
+medium
+quora
+telgram
