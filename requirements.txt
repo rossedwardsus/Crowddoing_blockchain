@@ -5,3 +5,4 @@ aiohttp
 quora
 newsapi-python
 asyncpg
+socketio

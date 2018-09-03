@@ -1,6 +1,6 @@
 <template>
       <div>
-      	name-token-linkedin-whitepaper-twitter-telegram-ethereum-active-cryptocoompare
+      	keywords-blockchain-powerledger-solarcoin-medicalchain
       </div>
 </template>
 

@@ -1,7 +1,9 @@
 'use strict';
 
-const Homepage = httpVueLoader('/static/homepage.vue')
+const Project = httpVueLoader('/static/project.vue')
 const Sidebar = httpVueLoader('/static/sidebar.vue')
+const AddProject = httpVueLoader('/static/add_project.vue')
+const EditProject = httpVueLoader('/static/edit_project.vue')
 
 
 // 0. If using a module system (e.g. via vue-cli), import Vue and VueRouter
@@ -20,9 +22,12 @@ const Bar = { template: '<div>bar</div>' }
 // `Vue.extend()`, or just a component options object.
 // We'll talk about nested routes later.
 const routes = [
-  { path: '/project/:projectId', name: 'project', component: Homepage, props: true },
+  { path: '/project/add', component: AddProject},
+  { path: '/project/edit', component: EditProject},
+  { path: '/project/:projectId', name: 'project', component: Project, props: true },
   { path: '/bar', component: Bar },
   { path: '/sidebar', component: Sidebar}
+
 ]
 
 // 3. Create the router instance and pass the `routes` option
