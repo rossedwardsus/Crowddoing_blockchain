@@ -1,7 +1,8 @@
 <template>
       <div>
-      	name-token-linkedin-whitepaper-twitter-telegram-ethereum-active-cryptocoompare
+      	name-token-linkedin-whitepaper-twitter-telegram-ethereum-active-cryptocoompare for token
       	<br/>
+      	white paper
       	<br/>
       	token<input type="text" v-model="token">
       	<br/>
@@ -25,7 +26,7 @@
 	  	btnClick: function(){
 	  		//alert(this.token);
 	  		axios.post('http://localhost:8080/api/project/add', 
-			    JSON.stringify({token: "this.token", who_added: "who"}), // the data to post
+			    JSON.stringify({token: "this.token"}), // the data to post
 			    { headers: {
 			      'Content-type': 'application/json',
 			      }
