@@ -12,6 +12,6 @@ async def home_handler(request):
 app = web.Application()
 app.router.add_static('/static/', path='./static/', name='static')
 app.add_routes([web.get('/home', home_handler), web.get('/api', api_project_handler), web.get('/', handle),
-                web.get('/{name}', handle)])
+                web.get('/{tail:.*}', home_handler)])
 
 web.run_app(app)

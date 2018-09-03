@@ -1,7 +1,7 @@
 'use strict';
 
-const Homepage = httpVueLoader('./static/homepage.vue')
-const Sidebar = httpVueLoader('./static/sidebar.vue')
+const Homepage = httpVueLoader('/static/homepage.vue')
+const Sidebar = httpVueLoader('/static/sidebar.vue')
 
 
 // 0. If using a module system (e.g. via vue-cli), import Vue and VueRouter

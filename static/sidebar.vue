@@ -1,7 +1,7 @@
 <template>
       <div>
       	<li v-for="item in projects">
-      		<h3>sidebar1</h3>
+      		<h3>1sidebar1</h3>
       	</li>
       </div>
 </template>
